@@ -1,4 +1,4 @@
-<h1> TheVault - Exclusive Trading Arsenal </h1>
+<h1> The Vault - Exclusive Trading Arsenal </h1>
 
 Welcome to TheVault, the official repository for my proprietary trading indicators, strategies, and insights. This is your gateway to cutting-edge tools designed to give you an edge in the markets. Built with passion and precision, these custom-made PineScript and Python solutions are the result of extensive research and backtesting.
 
@@ -21,7 +21,7 @@ Supporting Docs: PDFs and guides (exported from Google Docs) with setup instruct
 Alpha Insights: Market observations to inform your trades, curated from real-time data analysis.
 
 
-<h2> Why TheVault? 🔥 </h2>
+<h2> Why The Vault? 🔥 </h2>
 
 
 Proven Edge: Tools developed to exploit market inefficiencies—your competitive advantage.
