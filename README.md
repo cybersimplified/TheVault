@@ -36,7 +36,7 @@ Community Ready: Planned for Discord integration, where subscribers can discuss 
 <h2>Licensing & Access 💰 </h2>
 
 
-This repository contains copyrighted material. All rights reserved. Usage, modification, or distribution of the indicators and strategies is prohibited without a paid license. Contact me at your-email@example.com or visit your-payment-site.com to acquire a license tailored to your needs. Pricing and terms available upon request.
+This repository contains copyrighted material. All rights reserved. Usage, modification, or distribution of the indicators and strategies is prohibited without a paid license. Contact me on discord @ nu11_n008 to acquire a license tailored to your needs. Pricing and terms available upon request.
 
 
 <h2> Getting Started 📋 </h2>
