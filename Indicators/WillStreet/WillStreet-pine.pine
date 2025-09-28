@@ -1,1 +1,67 @@
+//@version=6
+indicator("WillStreet Indicator", overlay=true, max_bars_back=500)
 
+// Inputs
+channelLength = input.int(100, "Channel Length", minval=10)
+channelMult = input.float(1.0, "Channel Multiplier", minval=0.1, step=0.1)
+emaLength = input.int(200, "EMA Length", minval=50)
+stochK = input.int(14, "Stoch %K Length")
+stochSmoothK = input.int(3, "Stoch Smooth %K")
+stochSmoothD = input.int(3, "Stoch Smooth %D")
+showMTF = input.bool(true, "Show MTF Trend (1m/5m/15m)", active=true)  // v6: Added 'active' for input control
+
+// WillStreet Channel
+midline = ta.linreg(close, channelLength, 0)
+dev = ta.stdev(close, channelLength) * channelMult
+upper = midline + dev
+lower = midline - dev
+
+// Plots with v6 text formatting demo
+plot(midline, "WillStreet Midline", color=color.black, linewidth=2)
+p1 = plot(upper, "Upper Red (Sell Zone)", color=color.red, linewidth=1)
+p2 = plot(lower, "Lower Blue (Buy Zone)", color=color.blue, linewidth=1)
+fill(p1, p2, color=color.new(color.gray, 90), title="Channel Fill")
+
+// 200 EMA
+ema200 = ta.ema(close, emaLength)
+plot(ema200, "200 EMA", color=color.orange, linewidth=2)
+
+// Stochastic (Fast %K and Slow %D)
+[k, d] = ta.stoch(close, high, low, stochK)
+smoothK = ta.sma(k, stochSmoothK)
+smoothD = ta.sma(smoothK, stochSmoothD)
+plot(smoothK, "Fast Stoch (%K)", color=color.cyan)
+plot(smoothD, "Slow Stoch (%D)", color=color.orange)
+hline(80, "OB", color=color.red)
+hline(20, "OS", color=color.green)
+
+// MTF Trend Check (above/below 200 EMA on 1m, 5m, 15m) - Uses v6 dynamic request support, but static here
+mtfUp = request.security(syminfo.tickerid, "1", close > ta.ema(close, emaLength)) and
+        request.security(syminfo.tickerid, "5", close > ta.ema(close, emaLength)) and
+        request.security(syminfo.tickerid, "15", close > ta.ema(close, emaLength))
+mtfDown = request.security(syminfo.tickerid, "1", close < ta.ema(close, emaLength)) and
+          request.security(syminfo.tickerid, "5", close < ta.ema(close, emaLength)) and
+          request.security(syminfo.tickerid, "15", close < ta.ema(close, emaLength))
+if showMTF
+    bgcolor(mtfUp ? color.new(color.green, 90) : na, title="MTF Uptrend")
+    bgcolor(mtfDown ? color.new(color.red, 90) : na, title="MTF Downtrend")
+
+// Willalert Conditions (Alerts for touches/crosses)
+touchLower = ta.crossunder(close, lower) or close <= lower
+touchUpper = ta.crossover(close, upper) or close >= upper
+crossMidUp = ta.crossunder(close, midline)
+crossMidDown = ta.crossover(close, midline)
+
+// Alerts
+if touchLower
+    alert("WillAlert: Touched Buy Zone (Blue Line)", alert.freq_once_per_bar)
+if touchUpper
+    alert("WillAlert: Touched Sell Zone (Red Line)", alert.freq_once_per_bar)
+if crossMidUp
+    alert("WillAlert: Major Buy Zone (Crossed Midline Up)", alert.freq_once_per_bar)
+if crossMidDown
+    alert("WillAlert: Major Sell Zone (Crossed Midline Down)", alert.freq_once_per_bar)
+
+// v6 Demo: Add a bold label for trend
+if barstate.islast
+    label.new(bar_index, high, text="Trend: " + (mtfUp ? "UP" : mtfDown ? "DOWN" : "Neutral"), style=label.style_label_down, color=color.white, textcolor=color.black, size=size.normal, text_formatting=text.format_bold)
