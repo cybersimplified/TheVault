@@ -1,17 +1,8 @@
 # WillStreet Strategy Rules
 
-> Converted from PDF to Markdown. Images from each page are attached below their corresponding text.
+--------------------------------------------------
 
-
----
-
-## Page 1
-
-     WILLSTREET PC AND MAC
-                      RULES.
-MY TELEGRAM IS
-WILLTHEGREAT1 TEXT ME FOR
-ANY QUESTIONS….
+## Intro
 
 I WILL BE PUTTING THE SAME
 PHOTO BELOW AFTER EVERY
@@ -21,33 +12,16 @@ FOR THE SETUPS IT IS ONLY 5
 SIMPLE STEPS. YOUR PATIENCE
 LEVEL WILL DETERMINE HOW
 
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 2
-
 MUCH PROFITS YOU WILL
 EARN. DO NOT RUSH THE
 SETUP YOU WILL LOSE THE
 TRADE MOST OF THE TIME.
 
+<img width="667" height="378" alt="image" src="https://github.com/user-attachments/assets/c95972bd-339d-49b7-a802-f2d9f5fa9f08" />
 
+--------------------------------------------------
 
-
-
-
-### Images
-
-![Page 2 Image 1](willstreet_images/page2_img1.png)
-
----
-
-## Page 3
-
-
-
+## Recommendations
 
 5M CHART WORKS GREAT IT
 ALSO WORKS FOR 15M BUT I
@@ -58,27 +32,11 @@ TIMEFRAME. I RECOMMEND
 YOU DOING THIS ON THE 5M
 FOR THE BEST RESULTS.
 
+<img width="633" height="362" alt="image" src="https://github.com/user-attachments/assets/cc1d0297-ffd5-4b94-a215-3d71210e458e" />
 
+--------------------------------------------------
 
-_(No embedded images detected on this page.)_
-
----
-
-## Page 4
-
-_(No selectable text on this page)_
-
-
-### Images
-
-![Page 4 Image 1](willstreet_images/page4_img1.png)
-
----
-
-## Page 5
-
-
-
+## Setup
 
 1. CHECK 1M,5M,AND THE
 15M TO SEE WHERE ARE
@@ -89,17 +47,12 @@ ON ALL 3 TIMEFRAMES THE
 OVERALL TREND IS DOWN
 IF THE CANDLES ARE
 ABOVE THE 200EMA ON
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 6
-
 ALL 3 TIMEFRAMES THE
 OVERALL TREND IS UP.
 
+--------------------------------------------------
+
+## Buy Entry
 
 2. WAIT FOR YOUR
 WILLSTREET ALERT ONCE
@@ -109,18 +62,13 @@ YOU WILL BE ALERTED.
 THAT WILL ALERT YOU
 THAT YOU HAVE REACH
 THE BUY ZONE IF CANDLES
-CONTINUES TO FALL
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 7
-
-UNDER YOUR WILLSTREET
-THAN YOU WILL BE IN A
+CONTINUES TO FALL UNDER
+YOUR WILLSTREET THAN
+YOU WILL BE IN A
 MAJOR BUY ZONE.
+
+--------------------------------------------------
+
 3.BOTH STOCHASTIC MUST BE
 UNDER THE 20 YOU CAN SEE IN
 THE PHOTO ABOVE WHERE
@@ -132,39 +80,22 @@ TRADE YOUR FASTER
 STOCHASTIC WILL BE ABOVE
 THE 20 STILL TAKE THE TRADE.
 
+--------------------------------------------------
 
-_(No embedded images detected on this page.)_
-
----
-
-## Page 8
-
-
-
-
-
-
-
-4.WAIT FOR YOUR WILLALERT
+4.WAIT FOR YOUR WILL ALERT
 TO GO OFF. SOMETIMES IT
 COMES BEFORE OR AFTER
 WHEN IT REACHES THE MAJOR
 BUY ZONE ONCE CANDLES
 GOES UNDER THE WILLSTREET
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 9
-
 THE MAJOR BUY ZONE IS IN
 PLAY. THOSE ARE THE SETUPS
 YOU WANT TO WAIT ON FOR
 BIGGER PROFITS.
 
+--------------------------------------------------
 
+## Target Price / Stop Loss
 
 5. ONCE CANDLES CLOSE BACK
 ABOVE THE WILLSTREET THAT
@@ -172,14 +103,6 @@ IS YOUR ENTRY LIKE IN THE
 PICTURE ABOVE TAKE THE
 TRADE. THIS IS US30 SO YOU
 WILL SET A 200 PIP STOP LOSS
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 10
-
 TO GAIN 50 TO 100PIPS. THE
 TP IS YOUR CHOICE. ON A
 REGULAR PAIR LIKE GBPAUD
@@ -188,54 +111,30 @@ PIPS AND YOUR TP WILL BE 30
 TO 50PIPS AGAIN THE TP IS
 YOUR CHOICE.
 
+--------------------------------------------------
 
+## Sell Setup
 
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 11
-
-
-
-
-
-                SELL SETUP
 1. CHECK 1M,5M,AND THE
 15M TO SEE WHERE ARE
 THE CANDLES ON THE
-
-
-### Images
-
-![Page 11 Image 1](willstreet_images/page11_img1.png)
-
----
-
-## Page 12
-
 200EMA. IF THE CANDLES
 ARE UNDER THE 200EMA
 ON ALL 3 TIMEFRAMES THE
-OVERALL TREND IS DOWN
+OVERALL TREND IS DOWN.
 IF THE CANDLES ARE
 ABOVE THE 200EMA ON
 ALL 3 TIMEFRAMES THE
 OVERALL TREND IS UP.
 
+<img width="628" height="357" alt="third" src="https://github.com/user-attachments/assets/c7461a55-5220-4307-bfd3-cbd1064b3ea8" />
+
+--------------------------------------------------
+
 2. WAIT FOR YOUR
 WILLSTREET ALERT ONCE
 CANDLES TOUCHES THE
 FIRST RED LINE ABOVE YOU
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 13
-
 WILL BE ALERTED. THAT
 WILL ALERT YOU THAT YOU
 HAVE REACH THE SELL
@@ -249,14 +148,6 @@ SELL ZONE.
 BE ABOVE THE 80 YOU CAN
 SEE IN THE PHOTO ABOVE
 WHERE THE TWO RED
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 14
-
 ARROWS ARE BOTH
 STOCHASTICS ARE ABOVE
 THE 80. WHEN IT’S TIME
@@ -270,14 +161,6 @@ THE TRADE.
 WILLALERT TO GO OFF.
 SOMETIMES IT  COMES
 BEFORE OR AFTER IT WHEN
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 15
-
 IT REACHES THE MAJOR
 SELL ZONE ONCE CANDLES
 GOES ABOVE THE
@@ -288,17 +171,9 @@ YOU WANT TO WAIT ON
 FOR BIGGER PROFITS.
 
 
-5. . ONCE CANDLES CLOSE
+5. ONCE CANDLES CLOSE
 BACK UNDER THE
 WILLSTREET THAT IS YOUR
-
-
-_(No embedded images detected on this page.)_
-
----
-
-## Page 16
-
 ENTRY LIKE THE PICTURE
 ABOVE. THIS IS US30 SO
 YOU WILL SET A 200 PIP
@@ -312,14 +187,10 @@ TO 50PIPS AGAIN THE TP IS
 YOUR CHOICE.
 
 
-_(No embedded images detected on this page.)_
-
----
-
-## Page 17
+<img width="630" height="357" alt="image" src="https://github.com/user-attachments/assets/c55d9f44-8b6d-4c7d-9c66-0123bf7d3fa0" />
 
 
-
+--------------------------------------------------
 
 NOW THAT YOU ARE
 AWARE OF ALL THE RULES.
@@ -327,24 +198,7 @@ MAKE SURE YOU
 PRACTICES BOTH SETUPS
 AND KEEP TRADING
 SIMPLE DO NOT OVER
-
-
-### Images
-
-![Page 17 Image 1](willstreet_images/page17_img1.png)
-
----
-
-## Page 18
-
 THINK TRADING AT ALL.
 NOW THAT YOU HAVE
 MASTER THE SYSTEM LETS
 EAT $$$.
-
-
-
-
-
-
-_(No embedded images detected on this page.)_
